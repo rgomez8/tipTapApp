@@ -12,6 +12,7 @@
 		F87700D9208FE3FC00483374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87700D7208FE3FC00483374 /* Main.storyboard */; };
 		F87700DB208FE3FC00483374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87700DA208FE3FC00483374 /* Assets.xcassets */; };
 		F87700DE208FE3FC00483374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87700DC208FE3FC00483374 /* LaunchScreen.storyboard */; };
+		F8EFDF86209026AE0067C5F5 /* Aldo PC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8EFDF85209026AE0067C5F5 /* Aldo PC.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F87700DA208FE3FC00483374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87700DD208FE3FC00483374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87700DF208FE3FC00483374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EFDF85209026AE0067C5F5 /* Aldo PC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aldo PC.ttf"; path = "../aldo/Aldo PC.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		F87700C7208FE3FC00483374 = {
 			isa = PBXGroup;
 			children = (
+				F8EFDF85209026AE0067C5F5 /* Aldo PC.ttf */,
 				F87700D2208FE3FC00483374 /* tipTapApp */,
 				F87700D1208FE3FC00483374 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				F87700DE208FE3FC00483374 /* LaunchScreen.storyboard in Resources */,
 				F87700DB208FE3FC00483374 /* Assets.xcassets in Resources */,
+				F8EFDF86209026AE0067C5F5 /* Aldo PC.ttf in Resources */,
 				F87700D9208FE3FC00483374 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
