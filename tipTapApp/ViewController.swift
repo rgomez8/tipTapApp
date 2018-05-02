@@ -21,13 +21,13 @@ class ViewController: UIViewController {
     
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.sumTextField.layer.cornerRadius = 15
-        self.totalLabel.layer.cornerRadius = 15
-        self.percentOfSumLabel.layer.cornerRadius = 15
+   // override func viewDidLoad() {
+     //   super.viewDidLoad()
+       // self.sumTextField.layer.cornerRadius = 15
+       // self.totalLabel.layer.cornerRadius = 15
+        //self.percentOfSumLabel.layer.cornerRadius = 15
         
-    }
+    //}
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -49,11 +49,13 @@ class ViewController: UIViewController {
         if let sum = Double(sumTextField.text!){
             
             let tip = ((Double(percentage)*sum)/100)
-            percentOfSumLabel.text = "$\(tip)"
+            let roundedTip = String.localizedStringWithFormat("%.2f", tip)
+            percentOfSumLabel.text = "$\(roundedTip)"
             
             let total = sum + tip
+            let roundedTotal = String.localizedStringWithFormat("%.2f", total)
+            totalLabel.text = "$\(roundedTotal)"
             
-            totalLabel.text = "$\(total)"
             
             
         }else{

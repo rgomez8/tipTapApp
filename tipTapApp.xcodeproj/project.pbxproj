@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71171E62096FE4000F5533E /* Aldo PC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D71171E52096FE4000F5533E /* Aldo PC.ttf */; };
+		D71171EE209711A500F5533E /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71171ED209711A500F5533E /* RoundedCorner.swift */; };
+		D71171F4209723B800F5533E /* CustomTipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71171F3209723B800F5533E /* CustomTipTableViewController.swift */; };
+		D71171FA20972A3F00F5533E /* CustomTipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71171F920972A3F00F5533E /* CustomTipTableViewCell.swift */; };
 		F87700D4208FE3FC00483374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87700D3208FE3FC00483374 /* AppDelegate.swift */; };
 		F87700D6208FE3FC00483374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87700D5208FE3FC00483374 /* ViewController.swift */; };
 		F87700D9208FE3FC00483374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87700D7208FE3FC00483374 /* Main.storyboard */; };
 		F87700DB208FE3FC00483374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87700DA208FE3FC00483374 /* Assets.xcassets */; };
 		F87700DE208FE3FC00483374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87700DC208FE3FC00483374 /* LaunchScreen.storyboard */; };
-		F8EFDF86209026AE0067C5F5 /* Aldo PC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8EFDF85209026AE0067C5F5 /* Aldo PC.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D71171E52096FE4000F5533E /* Aldo PC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aldo PC.ttf"; path = "tipTapApp/Fonts/Aldo PC.ttf"; sourceTree = "<group>"; };
+		D71171ED209711A500F5533E /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedCorner.swift; path = ../RoundedCorner.swift; sourceTree = "<group>"; };
+		D71171F3209723B800F5533E /* CustomTipTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTipTableViewController.swift; sourceTree = "<group>"; };
+		D71171F920972A3F00F5533E /* CustomTipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTipTableViewCell.swift; sourceTree = "<group>"; };
 		F87700D0208FE3FC00483374 /* tipTapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipTapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87700D3208FE3FC00483374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87700D5208FE3FC00483374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +30,6 @@
 		F87700DA208FE3FC00483374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87700DD208FE3FC00483374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87700DF208FE3FC00483374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8EFDF85209026AE0067C5F5 /* Aldo PC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aldo PC.ttf"; path = "../aldo/Aldo PC.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +46,7 @@
 		F87700C7208FE3FC00483374 = {
 			isa = PBXGroup;
 			children = (
-				F8EFDF85209026AE0067C5F5 /* Aldo PC.ttf */,
+				D71171E52096FE4000F5533E /* Aldo PC.ttf */,
 				F87700D2208FE3FC00483374 /* tipTapApp */,
 				F87700D1208FE3FC00483374 /* Products */,
 			);
@@ -59,10 +65,13 @@
 			children = (
 				F87700D3208FE3FC00483374 /* AppDelegate.swift */,
 				F87700D5208FE3FC00483374 /* ViewController.swift */,
+				D71171ED209711A500F5533E /* RoundedCorner.swift */,
 				F87700D7208FE3FC00483374 /* Main.storyboard */,
 				F87700DA208FE3FC00483374 /* Assets.xcassets */,
 				F87700DC208FE3FC00483374 /* LaunchScreen.storyboard */,
 				F87700DF208FE3FC00483374 /* Info.plist */,
+				D71171F920972A3F00F5533E /* CustomTipTableViewCell.swift */,
+				D71171F3209723B800F5533E /* CustomTipTableViewController.swift */,
 			);
 			path = tipTapApp;
 			sourceTree = "<group>";
@@ -128,7 +137,7 @@
 			files = (
 				F87700DE208FE3FC00483374 /* LaunchScreen.storyboard in Resources */,
 				F87700DB208FE3FC00483374 /* Assets.xcassets in Resources */,
-				F8EFDF86209026AE0067C5F5 /* Aldo PC.ttf in Resources */,
+				D71171E62096FE4000F5533E /* Aldo PC.ttf in Resources */,
 				F87700D9208FE3FC00483374 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71171F4209723B800F5533E /* CustomTipTableViewController.swift in Sources */,
+				D71171EE209711A500F5533E /* RoundedCorner.swift in Sources */,
+				D71171FA20972A3F00F5533E /* CustomTipTableViewCell.swift in Sources */,
 				F87700D6208FE3FC00483374 /* ViewController.swift in Sources */,
 				F87700D4208FE3FC00483374 /* AppDelegate.swift in Sources */,
 			);
