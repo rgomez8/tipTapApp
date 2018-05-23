@@ -1,0 +1,168 @@
+/*----- Global -----*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: circular std, sans-serif;
+}
+
+.landing {
+    background-image: url(../images/bg_044.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px;
+    
+}
+.feature {
+        background-image: url(../images/bottom.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    min-height: 600px;   
+    position: relative;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+a {
+    font-size: 16px;
+}
+.btnOne {
+    border: white 2px solid;
+    border-radius: 100px;
+    padding: 0.6em 1.75em;
+}
+
+.btnTwo {
+    background-color: rgba(53, 164, 204, 0.76);
+    border-radius: 100px;
+    padding: 0.6em 1.75em;
+    display: block;
+    width: 160px;
+    margin-top: 40px;
+    text-align: center;
+}
+/*----- Landing -----*/
+
+.nav {
+    padding-top: 3em;
+    
+}
+.pages {
+    float: right;
+    text-align: right;
+}
+.pages a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+.logo {
+    padding-left: 50px;
+    width: 160px;
+    vertical-align: middle;
+}
+.landingWrapper {
+    width: 50%;
+    margin: auto;
+}
+.landingContent {
+    width: 88%;
+    margin: 150px auto 0 auto;
+    display: flex;
+}
+.contentLeft {
+    flex: 0 0 55%;
+}
+.contentRight{
+    flex: 0 0 45%;
+}
+.iphoneHand {
+    width: 100%;
+    margin-top: -55px;
+}
+.contentLeft h1, .contentLeft p, .contentLeft a {
+    color: white; 
+    text-decoration: none;
+}
+
+/*----- Features -----*/
+
+
+.date{
+    position: absolute;
+    top: 100px;
+    left: 11%;
+    right: 15%;
+}
+.date h1, .date img, .time h1, .time img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.date img, ,time img {
+    margin-bottom:  10px;
+    width: 36px;
+}
+
+.date p, .time p {
+    display: block;
+    margin-left: 100;
+}
+/*----- Groups -----*/
+
+.groupWrapper{
+    width: 88%;
+}
+.groupsContent {
+    width: 88%;
+    margin: 150px auto 0 auto;
+    display: flex;
+}
+.contentLeft img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.contentLeft img {
+    margin-bottom: 10px;
+    width: 36px;
+}
+.groupContent > .contentLeft p {
+    margin-left: 50px;
+}
+.groupsImage {
+    width: 500px;
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
